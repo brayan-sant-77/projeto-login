@@ -65,3 +65,61 @@
     margin-bottom: 10px;
  }
 
+ #formulario > p {
+    font-size: 0.8m;
+ }
+
+ form >.campo {
+    background-color: #5f2c92;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+ }
+ 
+ .campo > label {
+    display: none;
+ }
+ 
+ form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+
+ }
+
+ form > input[type=submit]:hover {
+    background-color: #306d6b;
+ }
+
+ form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: #1f4746;
+    border: 1px solid #49a09d;
+    border-radius: 7px;
+    margin-top: 10px;
+    text-decoration: none;
+ }
+
+ form > a.botao:hover {
+    background-color: #6cd3cf;
+ }
+
+ form > a.botao > span {
+    font-size: 0.8em;
+    padding: 10px;
+ }
+
+ 
