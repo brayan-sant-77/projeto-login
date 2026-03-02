@@ -8,16 +8,17 @@
 
     #login {
         width: 90vw;
+        
     }
 
     #login > div#imagem {
-        float: left;
+        float: left; /*Mantém a imagem à esquerda em telas como a de tablets (telas com até o máximo de 992px)*/
         width: 30%;
         height: 100%;
     }
 
     #login > #formulario {
-        float: right;
+        float: right; /* Mantém o formulário a direita em telas como a de tablets (em telas até o máximo de 992px)*/
         width: 70%;
     }
 }
@@ -33,13 +34,21 @@
     }
 
     #login > div#imagem {
-        float: left;
+        float: right; /*Faz com que a imagem vá para a direita assim que a tela aumentar, ou ser aberta em telas grandes*/
         width: 50%;
         height: 100%;
     }
 
     #login > div#formulario {
-        float: right;
+        float: left; /*Faz com que o formulário vá para a esquerda quando aumentar a tela, ou quando for aberto em telas grandes*/
         width: 50%;
     }
+
+    #formulario > h1 {
+        font-size: 2em;;
+    }
+
+     #formulario > p {
+        font-size: 1.2em;
+   }
 }
